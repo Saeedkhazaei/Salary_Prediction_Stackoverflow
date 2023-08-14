@@ -4,7 +4,6 @@ import pandas as pd
 import joblib
 from PIL import Image
 import time
-from sklearn.preprocessing import StandardScaler
 model = joblib.load('GBRpipe.joblib')
 
 col1,col2 = st.columns([2,1])
